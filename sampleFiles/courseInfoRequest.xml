@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GetCourseInfoRequest xmlns="http://www.courseMgmt.com/courses" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.courseMgmt.com/courses courseInfo.xsd" >
+<!-- xsi:schemaLocation="{namespace} {location}"-->
+	<id>1</id>
+</GetCourseInfoRequest>

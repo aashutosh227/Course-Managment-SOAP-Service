@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.courseMgmt.com/courses"
+xmlns:tns="http://www.courseMgmt.com/courses" elementFormDefault="qualified">
+
+	<xs:element name="GetCourseInfoRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:integer" name="id"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="GetCourseInfoResponse">
+		<xs:complexType>
+			<xs:sequence>
+			<!-- T -->
+				<xs:element type="tns:CourseInfo" name="CourseInfo"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="CourseInfo">
+		<xs:sequence>
+			<xs:element name="id" type="xs:integer"/>
+			<xs:element name="description" type="xs:string"/>
+			<xs:element name="name" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

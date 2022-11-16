@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetCourseDetailsResponse
+xmlns="http://www.courseMgmt.com/courses">
+
+	<CourseInfo>
+		<id>1</id>
+		<name>ABC</name>
+		<Description>ABC is XYZ</Description>
+	</CourseInfo>
+
+</GetCourseDetailsResponse>
